@@ -141,7 +141,7 @@ echo '<hr>' ;
 
 echo '<br>' ; 
 
-//[red] array in .json
+//[gd] array in json
 
 $JSson = json_encode($users3);  //[w]  for php array format to js and json format 
 print_r($JSson);
@@ -152,7 +152,15 @@ echo '<br>' ;
 $PHPjson = json_decode($JSson);  //[w]  for js array format to php arrya  format 
 print_r($PHPjson  );
 
+echo '<br>' ; 
+echo '<br>' ; 
 
 //[red] direct change array to object
 $arrayTOobject = (object) $users3 ; 
 print_r($arrayTOobject);
+
+echo '<br>' ; 
+
+//[red] direct change object to array
+$objectTOarray = (array) $arrayTOobject ; 
+print_r($objectTOarray);
