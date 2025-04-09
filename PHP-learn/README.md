@@ -98,7 +98,7 @@ After installation, open your settings.json and paste the provided configuration
   }
 }
 
-</details>
+
 
 
 
