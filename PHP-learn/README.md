@@ -1,16 +1,14 @@
 # PHP-learn
 A comprehensive PHP tutorial repository covering everything from beginner to advanced topics, with practical examples and clear explanations.
 
-> 💡 For the best experience, install the **Highlight** extension in VS Code.  
-> After installation, open your VS Code `settings.json` and add the provided configuration from this repository.  
-> This will enable beautiful custom colors for comments.
+📸 Instagram: [@reza1110ta](https://instagram.com/reza1110ta)
 
-✅ Just search for `highlight` in the Extensions panel and install the one by **fabiospampinato**.  
-🛠️ Then open your settings by pressing `Ctrl + Shift + P` → **Preferences: Open User Settings (JSON)**,  
-and paste this code snippet into your settings:
+💡 For the best experience, install the Highlight extension in VS Code by fabiospampinato.
+After installation, open your settings.json and paste the provided configuration from this repository to enable beautiful custom colors for comments.
 
 <details>
 <summary>Click to show the full highlight config</summary>
+🎯 If you already have highlight.regexes in your settings, feel free to only copy the custom coloring part (from // Custom coloring onwards) and merge it into your own config.
 
 ```json
 "highlight.regexes": {
@@ -100,8 +98,7 @@ and paste this code snippet into your settings:
   }
 }
 
-</details>
-🎯 If you already have highlight.regexes in your settings, feel free to only copy the custom coloring part (from // Custom coloring onwards) and merge it into your own config.
 
 
-📸 Instagram: [@reza1110ta](https://instagram.com/reza1110ta)
+
+
