@@ -127,3 +127,4 @@ switch($dayOFweek){
 //[gd] switch is like "  if & elseif & else  " but its easyer to write
 
 //[w] i recommend you read about date function in php!
+//[w] i recommend you read about ternary operators in php!
