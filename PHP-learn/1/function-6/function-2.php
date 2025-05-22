@@ -4,16 +4,16 @@
 
 //[w] anonymous functions are functions without names! so for call them , we should put them into a variable
 
-$sum = function ( int $a   ,    int $b){
+$sum = function (int $a,    int $b) {
     return $a + $b;
 };
 
-echo $sum(12  ,   15);
+echo $sum(12,   15);
 
 
-echo '<br>' ; 
-echo '<hr>' ; 
-echo '<br>' ; 
+echo '<br>';
+echo '<hr>';
+echo '<br>';
 
 
 //[w] in some case we want our function output is more than one output!
@@ -29,7 +29,8 @@ echo '<br>' ;
 
 //[red] the right way is like that :
 
-function UpperLower(string $name) {
+function UpperLower(string $name)
+{
     $result = array(
         'uppercase' => strtoupper($name),
         'lowercase' => strtolower($name)
@@ -40,6 +41,6 @@ function UpperLower(string $name) {
 
 var_dump(UpperLower("rEza"));
 // if we want just one of the array value :
-echo '<br>' ; 
+echo '<br>';
 $name2 = UpperLower("reza");
-echo $name2['uppercase']; 
+echo $name2['uppercase'];
