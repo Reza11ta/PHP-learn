@@ -149,7 +149,7 @@ print_r($JSson);
 echo '<br>' ; 
 echo '<br>' ; 
 
-$PHPjson = json_decode($JSson);  //[w]  for js array format to php arrya  format 
+$PHPjson = json_decode($JSson);  //[w]  it js for array format to php arrya  format 
 print_r($PHPjson  );
 
 echo '<br>' ; 
