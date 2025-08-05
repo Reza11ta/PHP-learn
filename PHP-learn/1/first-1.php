@@ -38,7 +38,6 @@ echo '<hr>';
 
 
 //[red] Constants  / ثابت ها  {values are unchangeable / you cannot change the values in another line}
-// constants have global scope {you can use them in any page of the project}
 const url = "kojaberim-ra.ir";  //it's more usable
 var_dump(url);
 
@@ -64,8 +63,8 @@ echo '<hr>';
 // 1 = int   //[w] normal numbers
 $int = 15;
 $int = -15;
-$int = 0x1A;  //hexadecimal numbers
-$int = 0123;  //octal numbers
+$int = 0x1A;  //hexadecimal numbers (0x is the prefix)
+$int = 0123;  //octal numbers (0 is the prefix)
 
 // 2 = float   //[w] decimal numbers
 $float = 1.1254;
