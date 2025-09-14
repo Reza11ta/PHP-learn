@@ -40,7 +40,7 @@ $users = array(
 
     "reza" => [
         "job" => "admin",
-        "age" => 17,
+        "age" => 18,
         "email" => "reza1110.work@gmail.com"
     ],
 
@@ -89,7 +89,7 @@ echo '<hr>' ;
 echo '<br>' ; 
 
 
-$dayOFweek = 77 ;
+$dayOFweek = 7 ;
 
 switch($dayOFweek){
     case 1 :   // if  $dayOFweek is 1 ; its run the code after this case
@@ -125,6 +125,3 @@ switch($dayOFweek){
 }
 
 //[gd] switch is like "  if & elseif & else  " but its easyer to write
-
-//[w] i recommend you read about date function in php!
-//[w] i recommend you read about ternary operators in php!

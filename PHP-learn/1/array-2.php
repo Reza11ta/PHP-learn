@@ -11,9 +11,9 @@ echo '<br>' ;
 echo '<br>' ; 
 
 //type of  Array
-//[gd] 1= indexed array / علامت گذاری عددی ==> this type has index{something like numbers} and its start from 0
-$car = array("bmw" , "pride" , "benz" , 14 , 15.15 , true);  //bmw is index 0 - pride is index 1 - benz is 3 - and.......
-var_dump($car);  //for array when you use  var_dump you can see number of member in array , and see index and data type and lengh of each memeber
+//[gd] 1= indexed array / علامت گذاری عددی ==> this type has index{something like numbers} and it starts from 0
+$car = array("bmw" , "pride" , "benz" , 14 , 15.15 , true);  //bmw is index 0 - pride is index 1 - benz is 2 - and.......
+var_dump($car);  //for array when you use  var_dump you can see number of members in array , and see index and data type and lengh of each memeber
 echo '<br>' ; 
 print_r($car);  //for array when you use  print_r you can see just  index 
 echo '<br>' ;
@@ -43,7 +43,7 @@ $cc = array("iran" => "tehran" , "japan" => "tokyo" , "germany" => "berlin");  /
  
  //[gd] 3= multidimensional array  / چند بعدی ==> with this type we have nested array
 
- //[w] multidimensional indexed array   / 2 dimension
+ //[w] multidimensional indexed array   / 2_dimension
  $users  = array(
 
     array(
@@ -140,27 +140,3 @@ echo '<br>' ;
 echo '<hr>' ; 
 
 echo '<br>' ; 
-
-//[gd] array in json
-
-$JSson = json_encode($users3);  //[w]  for php array format to js and json format 
-print_r($JSson);
-
-echo '<br>' ; 
-echo '<br>' ; 
-
-$PHPjson = json_decode($JSson);  //[w]  it js for array format to php arrya  format 
-print_r($PHPjson  );
-
-echo '<br>' ; 
-echo '<br>' ; 
-
-//[red] direct change array to object
-$arrayTOobject = (object) $users3 ; 
-print_r($arrayTOobject);
-
-echo '<br>' ; 
-
-//[red] direct change object to array
-$objectTOarray = (array) $arrayTOobject ; 
-print_r($objectTOarray);

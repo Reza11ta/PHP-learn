@@ -79,7 +79,7 @@ $boolean = true;  //when printing a boolean with the value true, it returns 1
 $boolean = false;  //when printing a boolean with the value false, it returns nothing but it is 0
 
 // 5 = array     //[gd] information is in array.php page!
-// 6 = object     //[gd] information is in object.php page!    
+// 6 = object     //[gd] information is in object.php page!
 
 // 7 = resource   //[w] for external resources; like connection code for MySQL
 $resource = mysqli_connect("localhost", "root"  /* and .... */);
