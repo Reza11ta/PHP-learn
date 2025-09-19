@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 // function funcName (){   //[w] this is the function
 //     code
