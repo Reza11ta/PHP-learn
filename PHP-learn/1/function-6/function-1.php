@@ -25,7 +25,7 @@ echo '<hr>';
 
 function user($name, $family)
 {  // when you want to run this function, you should pass it $name and $family
-    return "you name is $name $family";
+    return "your name is $name $family";
 }
 
 echo user("reza", "tomas");

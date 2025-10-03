@@ -18,7 +18,7 @@
         <label for="age">سن</label>
         <input type="text" name="age" id="age">
         <br>
-        <input type="submit" value="اسال">
+        <input type="submit" value="ارسال">
 
     </form>
 
